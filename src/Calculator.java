@@ -33,7 +33,7 @@ public class Calculator {
 		int subResult = a - b;		
 		return subResult;
 	}
-	
+	//below is the multiplication method
 	public static int multiplication(int a, int b) {
 		
 		int multResult = a * b;

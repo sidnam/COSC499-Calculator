@@ -34,8 +34,8 @@ public class Calculator {
 	
 	public static int multiplication(int a, int b) {
 		
-		int result = a * b;
-		return result; 
+		int multResult = a * b;
+		return multResult; 
 		
 	}
 

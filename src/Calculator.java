@@ -11,8 +11,9 @@ public class Calculator {
 		int y = sc.nextInt();
 		
 		System.out.println("The addition of the two numbers is: " + addition(x,y));
-		System.out.println("The subraction of the two numbers is: " + subraction(x,y));
-		
+		System.out.println("The subraction of the two numbers (a - b) is: " + subraction(x,y));
+		System.out.println("The multiplication of the two numbers is: " + multiplication(x,y));
+		System.out.println("The division of the two numbers is: " + division(x,y));
 		
 		sc.close();
 		
@@ -21,7 +22,8 @@ public class Calculator {
 	
 	public static int addition(int a, int b) { 
 		
-		int addResult = a +  b;		
+
+		int addResult = a + b;		
 		return addResult;
 	}
 
@@ -29,6 +31,18 @@ public class Calculator {
 		
 		int subResult = a - b;		
 		return subResult;
+	}
+	
+	public static int multiplication(int a, int b) {
+		
+		int multResult = a * b;
+		return multResult; 
+		
+	}
+	public static double division(int a, int b) {
+		
+		double divResult = a/b;
+		return divResult; 
 	}
 
 }

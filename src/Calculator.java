@@ -18,9 +18,8 @@ public class Calculator {
 		
 		sc.close();
 		
-		
 	}
-	
+	//Below are the methods for the functions.
 	public static int addition(int a, int b) { 
 		
 

@@ -27,6 +27,7 @@ public class Calculator {
 		return addResult;
 	}
 
+	//below is the subraction method.
 	public static int subraction(int a, int b) { 
 		
 		int subResult = a - b;		

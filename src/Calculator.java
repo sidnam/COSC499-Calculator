@@ -21,14 +21,14 @@ public class Calculator {
 	
 	public static int addition(int a, int b) { 
 		
-		int result = a + b;		
-		return result;
+		int addResult = a +  b;		
+		return addResult;
 	}
 
 	public static int subraction(int a, int b) { 
 		
-		int result = a - b;		
-		return result;
+		int subResult = a - b;		
+		return subResult;
 	}
 
 }

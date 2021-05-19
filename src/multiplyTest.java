@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class multiplicationTest {
+class multiplyTest {
 
 	@Test
 	void test() {
@@ -12,3 +12,4 @@ class multiplicationTest {
 	}
 
 }
+

@@ -40,6 +40,7 @@ public class Calculator {
 		return multResult; 
 		
 	}
+	//below is the division method
 	public static double division(int a, int b) {
 		
 		double divResult = a/b;
